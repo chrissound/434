@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.34.5.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 5ef7b5f228b628ee25ac395fd98e4d1ae00a5c5d37c91e8b8312e3e3897fe8da
+-- hash: 8934029f08434ac785405d484c25d9fc31e165b28c33e5a091ef021c92cff1ac
 
 name:                HaskellNixCabalStarter
 version:             0.1.0.0
@@ -20,5 +20,6 @@ executable app
   hs-source-dirs:
       src
   build-depends:
-      base >=4.12 && <4.13
+      base ==4.12.*
+    , webdriver-w3c
   default-language: Haskell2010

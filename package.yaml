@@ -5,6 +5,7 @@ maintainer: HaskellNixCabalStarter
 license: MIT
 dependencies:
 - base >=4.12 && <4.13
+- webdriver-w3c
 executables:
   app:
     source-dirs: src
